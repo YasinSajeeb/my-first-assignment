@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: white;
+    background-color: #FF5959;
+}
+#banner{
+    background-image: url(images/Top_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-items{
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    padding: 170px 0;
+}
+.banner-items h1{
+    font-size: 65px;
+    color: white;
+}
+.banner-items p{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    padding: 50px 0;
+}
+.banner-items a{
+    border-radius: 5px;
+}
