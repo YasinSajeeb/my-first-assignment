@@ -68,6 +68,7 @@ a{
 }
 .donation-item.second-item{
     border: 2px solid #FF5959;
+    background-color: #FFEEEE;
 }
 .donation-item h4{
     font-size: 30px;
@@ -116,6 +117,39 @@ form.donation-form a{
     font-size: 12px;
     padding: 10px 0;
 }
+#contents{
+    width: 80%;
+    margin: 0 auto;
+}
+#contents h3{
+    color: white;
+    font-size: 30px;
+    margin: 35px 30px 30px;
+}
+#contents p{
+    color: #bfecef;
+    font-size: 15px;
+    margin: 0 30px 35px;
+}
+#contents a{
+    font-size: 15px;
+    margin-left: 30%;
+}
+.content-left, .content-right{
+    padding-bottom: 10%;
+    display: inline-block;
+    width: 47%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content-left{
+    background-image: url(images/donation13.jpg);
+    margin-right: 5%;
+}
+.content-right{
+    background-image: url(images/donation7.jpg)
+}
 #footer-form{
     width: 60%;
     margin: 0 auto;
@@ -141,6 +175,7 @@ form.donation-form a{
     margin-left: -4px;
     border-radius: 0;
     padding-bottom: 15px;
+    font-size: 15px;
 }
 footer{
     background-color: #1e1e1e;
@@ -151,6 +186,7 @@ footer h3{
     font-family: 'Lobster', cursive;
     color: #FF5959;
     font-size: 36px;
+    margin: 15px 0;
 }
 footer p{
     font-family: 'Manrope', sans-serif;
